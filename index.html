@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Clock</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colorforworldclock">
+      <h1>
+       World Clock
+      </h1>
+
+      <select class="thecitychoice" id="city">
+        <option value="">Select City</option>
+        <option value="current">My location</option>
+        <option value="Asia/Bangkok">Bangkok</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="
+        Australia/Sydney">Sydney</option>
+      </select>
+    </div>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <div class="thecity" id="cities">
+      <div class="city" id="bangkok">
+        <div>
+          <h2>Bangkok</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
+      </div>
+
+      <div class="city" id="tokyo">
+        <div>
+          <h2>Tokyo</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
+      </div>
+
+      <div class="city" id="sydney">
+        <div>
+          <h2>Sydney</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
+      </div>
+    </div>
+    <footer>
+      <p><a href=""> Open source </a> by Kristi Vannaseng</p>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

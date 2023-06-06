@@ -1,0 +1,47 @@
+body {
+  background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 100px;
+  margin-left: 300px;
+  color: #ffb5b5;
+  font-family: rockwell;
+}
+footer {
+  text-align: center;
+  color: #ffb5b5;
+}
+.thecitychoice {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-left: 1100px;
+  margin-top: -135px;
+}
+
+.thecity {
+  margin: 0 auto;
+  max-width: 600px;
+  background: #407088;
+  padding: 30px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: rockwell;
+  color: #ffb5b5;
+}
+
+.time {
+  font-size: 35px;
+  font-weight: bold;
+}
